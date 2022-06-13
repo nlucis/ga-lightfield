@@ -1,0 +1,19 @@
+body {
+  margin: 0px !important; 
+  padding: 0px !important;
+  background-color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main > canvas {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
